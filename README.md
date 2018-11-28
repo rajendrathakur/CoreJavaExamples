@@ -1,2 +1,2 @@
-# MyJavaProjects
-This repo contains all types of java projects
+# CoreJavaExamples
+This repo contains all core java examples
