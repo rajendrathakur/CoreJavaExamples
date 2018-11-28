@@ -43,4 +43,10 @@ class User implements Serializable {
 	String epwd=(String)is.readObject();
 	pwd=epwd.substring(3);
 	}
+	
+	@Override
+	public String toString() {
+		return "User [userName=" + userName + ", pwd=" + pwd + "]";
+	}
+	
 }

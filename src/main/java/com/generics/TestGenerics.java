@@ -10,13 +10,10 @@ public class TestGenerics {
 		
 		list.add("Satish");
 		list.add("Ravi");
-		list.add(10);
-		
-		
-		
+		list.add(10);		
 		
 		String key = (String) list.get(0);
-		int i = (int) list.get(2);
+		int i = (Integer) list.get(2);
 		
 		ArrayList<String> list1 = new ArrayList<String>();
 		
